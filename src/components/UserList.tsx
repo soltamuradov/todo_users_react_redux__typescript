@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import {useDispatch, useSelector} from "react-redux";
 import {userTypedSelector} from "../hooks/userTypedSelector";
 import {fetchUsers} from "../store/action-creators/user";
 import {useActions} from "../hooks/useActions";
