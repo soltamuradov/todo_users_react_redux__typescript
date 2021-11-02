@@ -1,7 +1,7 @@
-import * as UserActionCreators from "./user"
-import * as TodoActionCreators from "./todo"
+import * as UserActionCreators from "./user";
+import * as TodoActionCreators from "./todo";
 
-export default  {
-    ...UserActionCreators,
-    ...TodoActionCreators
-}
+export default {
+  ...UserActionCreators,
+  ...TodoActionCreators,
+};
